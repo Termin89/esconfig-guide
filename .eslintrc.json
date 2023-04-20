@@ -2,6 +2,9 @@
   "env": {
     "es6": true
   },
+  "extends": [
+    "esnext/style-guide"
+  ],
   "rules": {
     "quotes": ["error", "single"],
     "semi": [2, "never"]
