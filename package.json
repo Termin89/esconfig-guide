@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js",
+    "lint-check": "npm run lint -- .",
+    "lint-config": "npm run lint -- --print-config path::String"
   },
   "author": "",
   "license": "ISC",
