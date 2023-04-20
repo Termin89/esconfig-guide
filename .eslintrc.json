@@ -6,7 +6,13 @@
     "esnext/style-guide"
   ],
   "rules": {
-    "quotes": ["error", "single"],
-    "semi": [2, "never"]
+    "quotes": ["error", "single"], // одинарные ковычки
+    "semi": ["warn", "never"], // не использовать точку с запятой
+    "indent": [2, 2], // отсутпы 2пробела
+    "no-multi-spaces": "error", // не искольковать множественные пробелы
+    "no-multiple-empty-lines": [2, {"max": 1}], // максимум 1 пустая срока
+    "no-var": [2], // нельзя использовать var
+    "max-len": ["error", {"code": 80}], // длина строки не более 80 символов
+    "eol-last": ["error", "always"] // в конце файла использовать пустую строку
   }
 }
